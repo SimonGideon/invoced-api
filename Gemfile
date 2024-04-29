@@ -9,6 +9,12 @@ gem "rails", "~> 7.0.8"
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
+#add byebug for debugging
+gem 'byebug', platforms: %i[ mri mingw x64_mingw ]
+
+# Use Puma as the app server
+
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
