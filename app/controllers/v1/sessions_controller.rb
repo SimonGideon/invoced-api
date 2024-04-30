@@ -1,6 +1,5 @@
 class V1::SessionsController < ApplicationController
     def create
-        # find the user
         @user = User.find_by(email: params[:email])
 
         if @user&.valid_password?(params[:password])
