@@ -12,6 +12,9 @@ gem "pg", "~> 1.1"
 #add byebug for debugging
 gem 'byebug', platforms: %i[ mri mingw x64_mingw ]
 
+# add jbuilder for json response
+gem 'jbuilder', '~> 2.11'
+
 # Use Puma as the app server
 
 
